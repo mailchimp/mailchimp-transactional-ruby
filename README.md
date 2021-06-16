@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://mailchimp.com/developer/">
-    <img src="https://raw.githubusercontent.com/mailchimp/mailchimp-client-lib-codegen/master/resources/images/mcdev-banner.png" alt="Mailchimp Developer" width="100%" height="auto">
+    <img src="https://raw.githubusercontent.com/mailchimp/mailchimp-client-lib-codegen/main/resources/images/mcdev-banner.png" alt="Mailchimp Developer" width="100%" height="auto">
   </a>
 </p>
 
@@ -21,15 +21,15 @@ gem build MailchimpTransactional.gemspec
 Then either install the gem locally:
 
 ```shell
-gem install ./MailchimpTransactional-1.0.26.gem
+gem install ./MailchimpTransactional-1.0.27.gem
 ```
-(for development, run `gem install --dev ./MailchimpTransactional-1.0.26.gem` to install the development dependencies)
+(for development, run `gem install --dev ./MailchimpTransactional-1.0.27.gem` to install the development dependencies)
 
 or publish the gem to a gem hosting service, e.g. [RubyGems](https://rubygems.org/).
 
 Finally add this to the Gemfile:
 
-    gem 'MailchimpTransactional', '~> 1.0.26'
+    gem 'MailchimpTransactional', '~> 1.0.27'
 
 ### Install from Git
 
@@ -188,15 +188,15 @@ Mailchimp Transactional libraries are available in the following languages:
 
 <div>
   <a href="https://github.com/mailchimp/mailchimp-transactional-node">
-  <img src="https://github.com/mailchimp/mailchimp-client-lib-codegen/blob/master/resources/images/lang_node.png?raw=true" width="44" height="44">
+  <img src="https://github.com/mailchimp/mailchimp-client-lib-codegen/blob/main/resources/images/lang_node.png?raw=true" width="44" height="44">
   </a>
   <a href="https://github.com/mailchimp/mailchimp-transactional-php">
-  <img src="https://github.com/mailchimp/mailchimp-client-lib-codegen/blob/master/resources/images/lang_php.png?raw=true" width="44" height="44">
+  <img src="https://github.com/mailchimp/mailchimp-client-lib-codegen/blob/main/resources/images/lang_php.png?raw=true" width="44" height="44">
   </a>
   <a href="https://github.com/mailchimp/mailchimp-transactional-ruby">
-  <img src="https://github.com/mailchimp/mailchimp-client-lib-codegen/blob/master/resources/images/lang_ruby.png?raw=true" width="44" height="44">
+  <img src="https://github.com/mailchimp/mailchimp-client-lib-codegen/blob/main/resources/images/lang_ruby.png?raw=true" width="44" height="44">
   </a>
   <a href="https://github.com/mailchimp/mailchimp-transactional-python">
-  <img src="https://github.com/mailchimp/mailchimp-client-lib-codegen/blob/master/resources/images/lang_python.png?raw=true" width="44" height="44">
+  <img src="https://github.com/mailchimp/mailchimp-client-lib-codegen/blob/main/resources/images/lang_python.png?raw=true" width="44" height="44">
   </a>
 </div>
