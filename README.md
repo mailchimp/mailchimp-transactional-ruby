@@ -21,15 +21,15 @@ gem build MailchimpTransactional.gemspec
 Then either install the gem locally:
 
 ```shell
-gem install ./MailchimpTransactional-1.0.37.gem
+gem install ./MailchimpTransactional-1.0.38.gem
 ```
-(for development, run `gem install --dev ./MailchimpTransactional-1.0.37.gem` to install the development dependencies)
+(for development, run `gem install --dev ./MailchimpTransactional-1.0.38.gem` to install the development dependencies)
 
 or publish the gem to a gem hosting service, e.g. [RubyGems](https://rubygems.org/).
 
 Finally add this to the Gemfile:
 
-    gem 'MailchimpTransactional', '~> 1.0.37'
+    gem 'MailchimpTransactional', '~> 1.0.38'
 
 ### Install from Git
 
