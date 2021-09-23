@@ -13,7 +13,7 @@ Swagger Codegen version: 2.4.12
 require 'uri'
 
 module MailchimpTransactional
-  class WhitelistsApi
+  class AllowlistsApi
     attr_accessor :api_client
 
     def initialize(api_client = ApiClient.default)
@@ -26,7 +26,7 @@ module MailchimpTransactional
     # @param [Hash] opts the optional parameters
     # @return [Array<(InlineResponse200, Fixnum, Hash)>] InlineResponse200 data, response status code and response headers
     def add(body = {})
-      data = @api_client.call_api(:POST, '/whitelists/add', body)
+      data = @api_client.call_api(:POST, '/allowlists/add', body)
       data
     end
 
@@ -36,7 +36,7 @@ module MailchimpTransactional
     # @param [Hash] opts the optional parameters
     # @return [Array<(InlineResponse2002, Fixnum, Hash)>] InlineResponse2002 data, response status code and response headers
     def delete(body = {})
-      data = @api_client.call_api(:POST, '/whitelists/delete', body)
+      data = @api_client.call_api(:POST, '/allowlists/delete', body)
       data
     end
 
@@ -46,7 +46,7 @@ module MailchimpTransactional
     # @param [Hash] opts the optional parameters
     # @return [Array<(Array<InlineResponse2001>, Fixnum, Hash)>] Array<InlineResponse2001> data, response status code and response headers
     def list(body = {})
-      data = @api_client.call_api(:POST, '/whitelists/list', body)
+      data = @api_client.call_api(:POST, '/allowlists/list', body)
       data
     end
   end

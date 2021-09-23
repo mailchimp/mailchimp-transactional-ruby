@@ -21,15 +21,15 @@ gem build MailchimpTransactional.gemspec
 Then either install the gem locally:
 
 ```shell
-gem install ./MailchimpTransactional-1.0.39.gem
+gem install ./MailchimpTransactional-1.0.40.gem
 ```
-(for development, run `gem install --dev ./MailchimpTransactional-1.0.39.gem` to install the development dependencies)
+(for development, run `gem install --dev ./MailchimpTransactional-1.0.40.gem` to install the development dependencies)
 
 or publish the gem to a gem hosting service, e.g. [RubyGems](https://rubygems.org/).
 
 Finally add this to the Gemfile:
 
-    gem 'MailchimpTransactional', '~> 1.0.39'
+    gem 'MailchimpTransactional', '~> 1.0.40'
 
 ### Install from Git
 
@@ -90,7 +90,11 @@ All URIs are relative to *https://mandrillapp.com/api/1.0*
 
 | Method | Endpoint |
 | ---------- | -------- |
+| **allowlists.add** | /allowlists/add |
+| **allowlists.delete** | /allowlists/delete |
+| **allowlists.list** | /allowlists/list |
 | **exports.activity** | /exports/activity |
+| **exports.allowlist** | /exports/allowlist |
 | **exports.info** | /exports/info |
 | **exports.list** | /exports/list |
 | **exports.rejects** | /exports/rejects |
