@@ -21,15 +21,15 @@ gem build MailchimpTransactional.gemspec
 Then either install the gem locally:
 
 ```shell
-gem install ./MailchimpTransactional-1.0.59.gem
+gem install ./MailchimpTransactional-1.1.2.gem
 ```
-(for development, run `gem install --dev ./MailchimpTransactional-1.0.59.gem` to install the development dependencies)
+(for development, run `gem install --dev ./MailchimpTransactional-1.1.2.gem` to install the development dependencies)
 
 or publish the gem to a gem hosting service, e.g. [RubyGems](https://rubygems.org/).
 
 Finally add this to the Gemfile:
 
-    gem 'MailchimpTransactional', '~> 1.0.59'
+    gem 'MailchimpTransactional', '~> 1.1.2'
 
 ### Install from Git
 
@@ -131,6 +131,7 @@ All URIs are relative to *https://mandrillapp.com/api/1.0*
 | **messages.search_time_series** | /messages/search-time-series |
 | **messages.send** | /messages/send |
 | **messages.send_raw** | /messages/send-raw |
+| **messages.send_sms** | /messages/send-sms |
 | **messages.send_template** | /messages/send-template |
 | **metadata.add** | /metadata/add |
 | **metadata.delete** | /metadata/delete |
