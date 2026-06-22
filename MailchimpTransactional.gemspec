@@ -25,9 +25,9 @@ Gem::Specification.new do |s|
   s.summary     = "Mailchimp Transactional API Ruby Gem"
   s.description = "The official Ruby client library for the Mailchimp Trainsactional API"
   s.license     = 'Apache-2.0'
-  s.required_ruby_version = ">= 1.9"
+  s.required_ruby_version = ">= 3.1.0"
 
-  s.add_runtime_dependency 'excon', '>= 0.76.0', '<1'
+  s.add_runtime_dependency 'excon', '>= 1.5.0'
   s.add_runtime_dependency 'json', '~> 2.1', '>= 2.1.0'
 
   s.add_development_dependency 'rspec', '~> 3.6', '>= 3.6.0'
